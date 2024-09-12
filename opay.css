@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    padding-left: 5%;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    /* justify-content: space-between; */
+}
+a{
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 20px;
+    color: rgb(31, 24, 24);
+}
+h1{
+    font-size: 60px;
+    font-family: graphix, sans-serif;
+    color: yellow;
+    font-weight: 700;
+}
+p{
+    line-height: 2;
+}
+.container{
+    display: flex;
+    height: 90vh;
+    
+}
+.first{
+    background: url(../image/opay/home01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 80vh; */
+}
+.first1, .third1, .fourth1, .fifth1, .eight1, .ninth1{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.third, .fifth, .eight{
+    background-color: #1DC99B;
+    /* height: 80vh; */
+    margin: auto;
+}
+.ninth{
+    background-color: #F8FBFF;
+}
+.tenth{
+    background-color: #D4D4D4;
+}
+.fourth{
+    /* height: 80vh; */
+    margin: auto;
+}
+.third2, .fourth2, .fifth2, .eight2, .ninth2{
+    width: 50%;
+    padding-left: 5%;
+    padding-top: 5%;
+}
+.sixth{
+    background-color: #EDEDED;
+}
+.sixth1{
+    width: 40%;
+    margin-left: 60%;
+}
+.seventh{
+    padding-left: 5%;    
+}
+.seventh2{
+    display: flex;
+    overflow: scroll;
+}
+#sev3{
+    padding-right: 20px;
+}
+.tenth1{
+    padding-left: 20%;
+}
+.button{
+    position: sticky;
+    top: 60vh;
+    bottom: 40vh;
+}
